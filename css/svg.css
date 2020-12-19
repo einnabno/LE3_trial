@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	background-color: #ffd1dc;
+}
+.nav{
+	height: 140px;
+	background-color: #d1fff4;
+	width: 100%;
+}	
+ul {
+  list-style-type: none;
+  margin-left: 500px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+.nav a {
+	color: #000;
+	display: block;
+	font: bold 20px/20px sans-serif;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+.SVG a {
+	position: relative;
+	float: left;
+	left: 300px;
+	background-color: #d1fff4;
+	color: #000;
+	display: block;
+	font: bold 20px/20px sans-serif;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+
+.title {
+	font-family: Arial;
+}
+.cake{
+	margin-top: -300px;
+	left: 500px;
+	position: absolute;
+	animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0);
+}
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+.pop{
+	margin-top: -800px;
+	margin-left: 1150px;
+	position: absolute;
+	animation: hideshow 3s 1.5s ease infinite;
+}
+@keyframes hideshow{
+0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.dnut{
+	margin-top: -700px;
+	margin-left: 400px;
+	position: absolute;
+	float: left;
+	animation: dnut 3s infinite linear;
+}
+@keyframes dnut {
+	0% {transform: rotate(0);left:10px;}
+	25% {left:20px;}
+	50% {left:10px;}
+	75% {left:20px;}
+	100% {transform: rotate(360deg);left:10px;}
+}
+.cake2{
+	margin-top: -300px;
+	left: 1150px;
+	position: absolute;
+	animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0);
+}
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+.pop2{
+	margin-top: -500px;
+	margin-left: 50px;
+	position: absolute;
+	animation: hideshow 5s 1.5s ease infinite;
+}
+@keyframes hideshow{
+0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 1; }
+  100% { opacity: 0; }
+}

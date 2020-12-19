@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	background-color: #ffd1dc;
+	
+}
+.nav{
+	height: 140px;
+	background-color: #d1fff4;
+	width: 100%;
+}	
+ul {
+  list-style-type: none;
+  margin-left: 500px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+.nav a {
+	color: #000;
+	display: block;
+	font: bold 20px/20px sans-serif;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.drip{
+	height: 300px;
+	width: 600px;
+	position: absolute;
+	float: left;
+	left: -35px;
+}
+.drip2{
+	height: 300px;
+	width: 600px;
+	position: absolute;
+	float: left;
+	left: 480px;
+}
+.drip3{
+	height: 300px;
+	width: 600px;
+	position: absolute;
+	float: left;
+	left: 990px;
+}
+.drip4{
+	margin-left: 1303px;
+	position: absolute;
+}
+.balloon{
+	margin-top: 80px;
+	left: 100px;
+	height: 400px;
+	width: 350px;
+	float: left;
+	position: relative;
+}
+.cloud{
+	margin-top: 600px;
+	height: 200px;
+	width: 350px;
+	float: left;
+	position: relative;
+	animation: slide 3s linear 0s 3;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+  from {
+    left: -250px;
+  } 
+  to {
+    left: 200px;
+  } 
+}
+.cloud2{
+	margin-top: 250px;
+	margin-right: 150px;
+	height: 200px;
+	width: 350px;
+	float: right;
+	position: relative;
+	animation: slide2 3s linear 0s 3;
+    animation-iteration-count: infinite;
+}
+@keyframes slide2 {
+  from {
+    left: -300px;
+  } 
+  to {
+    left: 150px;
+  } 
+}
+.balloon2{
+	margin-top: 200px;
+	margin-right: 450px;
+	float: right;
+	position: relative;
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+	position: absolute;
+	float: left;
+	top: 600px;
+	left: 350px;
+  color: #fff;
+  font-size: 80px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+

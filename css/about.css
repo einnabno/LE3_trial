@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	background-color: #ffd1dc;
+}
+.nav{
+	height: 140px;
+	background-color: #d1fff4;
+	width: 100%;
+}	
+ul {
+  list-style-type: none;
+  margin-left: 500px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+.nav a {
+	color: #000;
+	display: block;
+	font: bold 20px/20px sans-serif;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.land1{
+	position: absolute;
+	margin-top: 1000px;
+	height: 40px;
+	width: 100%;
+	background-color: #21400a;
+}
+.land2{
+	position: relative;
+	float: left;
+	margin-top: 950px;
+	height: 50px;
+	width: 100%;
+	background-color: green;
+}
+.tree{
+	position: relative;
+	float: left;
+	margin-top: -500px;
+}
+.tree2{
+	position: relative;
+	float: left;
+	margin-top: -390px;
+	margin-left: 400px;
+}
+.tree3{
+	position: relative;
+	float: left;
+	margin-top: -440px;
+	margin-left: 580px;
+}
+.cloud{
+	margin-top: -750px;
+	margin-left: -400px;
+	height: 200px;
+	width: 350px;
+	float: left;
+	position: relative;
+	animation: slide 3s linear 0s 3;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+  from {
+    left: -300px;
+  } 
+  to {
+    left: 100px;
+  } 
+}
+.cloud2{
+	margin-top: -900px;
+	margin-right: 150px;
+	height: 200px;
+	width: 350px;
+	float: right;
+	position: relative;
+	animation: slide2 3s linear 0s 3;
+    animation-iteration-count: infinite;
+}
+@keyframes slide2 {
+  from {
+    left: -400px;
+  } 
+  to {
+    left: 100px;
+  }
+}
+.fw{
+	position: absolute;
+	margin-left: 710px;
+	margin-top: 355px;
+}
+.desc{
+	position: absolute;
+	float: center;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	margin-top: 40px;
+	margin-left: 400px;
+}
+.desc2{
+	position: absolute;
+	float: center;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	margin-left: 330px;
+	margin-top: 60px;
+}
